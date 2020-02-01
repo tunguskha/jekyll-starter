@@ -1,0 +1,27 @@
+title: Velia
+lang: fr
+email: contact@tungu.me
+description: >- # this means to ignore newlines until "baseurl:"
+  I'm the description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: tunguskhaaaa
+github_username: tunguskha
+
+
+
+# Build settings
+# plugins:
+#   - jekyll-feed
+
+sass:
+  style: compressed
+
+host: tungu.local
+port: 8080
+# Command: bundle exec jekyll serve --trace -o --livereload
+
+collections:
+  products:
+    output: true
+    permalink: /product/:name

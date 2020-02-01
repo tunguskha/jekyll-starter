@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+
+<h1>I'm the content</h1>
+
+{% for product in site.products %}
+<li>
+    <a href="{{ product.url }}">{{ product.title }}</a> <br>
+</li>
+{% endfor %}

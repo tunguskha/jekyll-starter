@@ -1,0 +1,9 @@
+{
+    "name": "jekyll-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "start": "bundle exec jekyll serve --trace -o --livereload"
+    }
+}
